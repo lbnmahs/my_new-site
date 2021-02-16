@@ -1,0 +1,156 @@
+body{
+  background-color: #F3F3F3;
+  margin: 0;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+/*****TEXTS*****/
+h1{
+  text-align: center;
+  margin-top: 0;
+
+  font-family: 'Abril Fatface', cursive;
+  font-size: 90px;
+  color: #f0a500;
+}
+h2{
+  text-align: center;
+  margin-top: 0;
+  color: #f0a500;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 55px;
+  margin: 60px auto 0 auto;
+}
+h3{
+  font-family: 'Cormorant Garamond', serif;
+}
+p{
+  font-family: 'Playfair Display', serif;
+  line-height: 2;
+}
+hr{
+  background-color: #F3F3F3;
+  color: #f8e4b7;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 4%;
+  margin: 100px auto;
+}
+a{
+  color: #646464;
+  font-family: 'Libre Franklin', sans-serif;
+  margin: 5px 10px;
+  text-decoration: none;
+}
+a:hover{
+  color: #F6F6F6;
+}
+.hello-tag{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 60px;
+  font-weight: normal;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+.my-skills{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  font-weight: normal;
+  color: #f0a500;
+  margin-bottom: 0;
+}
+.skill-title{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 30px;
+  color: #f0a500;
+}
+.in-touch{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 30px;
+}
+.contact-moi{
+  width: 40%;
+  margin: 20px auto 10px auto;
+}
+.copyright{
+  color: #F6F6F6;
+  font-size: 0.75rem;
+}
+/*****Containers and DIVS*****/
+.top-container{
+  background-color: #F3F3F3;
+  padding-top: 95px;
+  width: 100%;
+  position: relative;
+}
+.skills-row{
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+}
+.bottom-container{
+  background-color: #f0a500;
+  padding: 50px 0 20px;
+}
+
+/*****Images*****/
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 100px;
+  color: white;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 50px;
+  top: 500px;
+  color: white;
+}
+.top-pic{
+  position: absolute;
+  left: 90px;
+  top: 20px;
+  height: 100px;
+}
+.profile-pic{
+  margin-top: 20px;
+  height: 200px;
+}
+
+/*****Icons*****/
+.icon-1{
+  float: left;
+  height: 25%;
+  width: 20%;
+  margin-right: 30px;
+}
+.icon-2{
+  float: right;
+  height: 25%;
+  width: 20%;
+  margin-right: 30px;
+}
+
+/*****Button*****/
+.contact-btn:link,
+.contact-btn:visited{
+  margin: 10px auto 30px auto;
+  display: inline-block;
+  padding: 10px 30px;
+  font-family: 'Libre Franklin', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
+  background-color: #f39233;
+  border: 1px solid #f39233;
+  color: #fff;
+  margin-right: 15px;
+}
+.contact-btn:hover,
+.contact-btn:active{
+  background-color: #ff9642;
+}
